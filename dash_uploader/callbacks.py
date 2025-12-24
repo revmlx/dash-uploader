@@ -127,6 +127,7 @@ def callback(
                 State(id, "totalFilesSize"),
                 State(id, "upload_id"),
             ],
+            hidden=True,
             **kwargs
         )(dash_callback)
 
